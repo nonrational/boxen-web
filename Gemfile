@@ -8,6 +8,7 @@ gem "omniauth-github"
 gem "pg"
 gem "rails", "~> 3"
 gem "unicorn"
+gem 'rack-wwwhisper', '~> 1.0'
 
 group :assets do
   gem "coffee-rails"
