@@ -17,4 +17,4 @@ end
   ENV['REPOSITORY']="boxen/our-boxen"
   ENV['GITHUB_CLIENT_ID']="DUMMY"
   ENV['GITHUB_CLIENT_SECRET']="DUMMY"
-  ENV['SECRET_TOKEN']="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  ENV['SECRET_TOKEN']='a'*128
