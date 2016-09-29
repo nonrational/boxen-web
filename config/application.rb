@@ -8,7 +8,6 @@ require "jquery/rails"
 require "net/http"
 require "sprockets/railtie"
 require "uri"
-require 'rack/wwwhisper'
 
 module Boxen
   class Application < Rails::Application

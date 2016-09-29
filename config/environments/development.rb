@@ -9,12 +9,9 @@ Boxen::Application.configure do
   config.cache_classes                                   = false
   config.consider_all_requests_local                     = true
   config.whiny_nils                                      = true
-
-  config.middleware.insert 0, "Rack::WWWhisper"
 end
 
-
-  ENV['REPOSITORY']="boxen/our-boxen"
-  ENV['GITHUB_CLIENT_ID']="DUMMY"
-  ENV['GITHUB_CLIENT_SECRET']="DUMMY"
-  ENV['SECRET_TOKEN']='a'*128
+ENV['REPOSITORY']="boxen/our-boxen"
+ENV['GITHUB_CLIENT_ID']="DUMMY"
+ENV['GITHUB_CLIENT_SECRET']="DUMMY"
+ENV['SECRET_TOKEN']='a'*128
