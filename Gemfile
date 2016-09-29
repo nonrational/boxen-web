@@ -18,4 +18,5 @@ end
 group :development, :test do
   gem "heroku"
   gem "pry"
+  gem 'test-unit', '~> 3.0'
 end
